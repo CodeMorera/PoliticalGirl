@@ -18,7 +18,7 @@ public class Main  {
         //Causes this window to be sized to fit the preferred size.
         window.pack();
 
-        window.setLocation(null); // set it relative to the screen.
+        window.setLocationRelativeTo(null); // set it relative to the screen.
         window.setVisible(true);  // so we can see this window.
     }
 }
