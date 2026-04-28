@@ -1,4 +1,4 @@
-package main;
+package main.java.main;
 
 import javax.swing.JFrame;
 
@@ -20,6 +20,8 @@ public class Main  {
 
         window.setLocationRelativeTo(null); // set it relative to the screen.
         window.setVisible(true);  // so we can see this window.
+
+        gamePanel.startGameThread();
     }
 }
 

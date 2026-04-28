@@ -1,0 +1,17 @@
+# Java build output
+out/
+bin/
+target/
+
+# VS Code Java temporary workspace stuff
+.classpath
+.project
+.settings/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.vscode/
